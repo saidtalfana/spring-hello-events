@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.spring.Hello_Events.HelloEventsApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.89 s -- in com.spring.Hello_Events.HelloEventsApplicationTests
