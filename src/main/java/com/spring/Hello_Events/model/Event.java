@@ -1,38 +1,46 @@
 package com.spring.Hello_Events.model;
+
 import jakarta.persistence.*;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.springframework.format.annotation.DateTimeFormat;
+
 import java.time.LocalTime;
 import java.util.Date;
+import java.util.Set;
+import java.util.HashSet;
 
 @Entity
 @Table(name = "events")
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Getter
-@Setter
 public class Event {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    @Column(nullable = false)
+    @Column()
     private String name;
 
-    @Column(nullable = false)
+    @Column()
     private String description;
 
-    @Column(nullable = false)
+    @Column()
     private String location;
 
     @DateTimeFormat(pattern = "HH:mm")
     private LocalTime startTime;
 
     @DateTimeFormat(pattern = "yyyy-MM-dd")
-    @Column(nullable = false)
+    @Column()
     private Date date;
 
-    @Column(nullable = false)
+    @Column()
     private Double price;
+
+    @OneToMany(mappedBy = "event")
+    private Set<Reservations> reservations = new HashSet<>();
 }

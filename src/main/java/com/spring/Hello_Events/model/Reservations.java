@@ -1,11 +1,11 @@
 package com.spring.Hello_Events.model;
+
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.format.annotation.DateTimeFormat;
 
-import java.time.LocalDateTime;
 import java.util.Date;
 
 @Entity
@@ -33,6 +33,4 @@ public class Reservations {
 
     @Column(nullable = false)
     private Integer numberOfTickets;
-
-
 }

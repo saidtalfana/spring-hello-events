@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fb29bad-b025-4232-b821-01ad6aee2f39" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/spring-hello-events.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hello-Events.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/enums/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/model/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/model/Reservations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/model/Contact.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/model/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/model/Event.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +47,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.HelloEventsApplication (1).executor": "Run",
     "Spring Boot.HelloEventsApplication.executor": "Run",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "admin",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/user/Desktop/Hello-Events",
     "node.js.detected.package.eslint": "true",
@@ -94,7 +88,7 @@
       <workItem from="1721745613698" duration="918000" />
       <workItem from="1721746575181" duration="1247000" />
       <workItem from="1721748586447" duration="644000" />
-      <workItem from="1721767861419" duration="1683000" />
+      <workItem from="1721767861419" duration="2412000" />
     </task>
     <servers />
   </component>
