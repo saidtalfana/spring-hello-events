@@ -1,26 +1,46 @@
 package com.spring.Hello_Events.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import com.spring.Hello_Events.enums.Role;
 import lombok.AllArgsConstructor;
-import lombok.Getter;
+import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
+
+import jakarta.persistence.*;
+import java.util.Set;
+import java.util.HashSet;
 
 @Entity
+@Table(name = "users")
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Getter
-@Setter
 public class User {
 
     @Id
-    @GeneratedValue (strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
-    private String name;
+
+    @Column(unique = true)
     private String username;
-    private String email;
+
+    @Column()
     private String password;
+
+    @Column()
+    private String email;
+
+    @Column
+    private String phoneNumber;
+
+    @Enumerated(EnumType.STRING)
+    @ElementCollection(targetClass = Role.class)
+    @CollectionTable(name = "user_roles", joinColumns = @JoinColumn(name = "user_id"))
+    @Column(name = "role")
+    private Set<Role> roles = new HashSet<>();
+
+    @OneToMany(mappedBy = "user")
+    private Set<Contact> contacts = new HashSet<>();
+
+    @OneToMany(mappedBy = "user")
+    private Set<Reservations> reservations = new HashSet<>();
 }
