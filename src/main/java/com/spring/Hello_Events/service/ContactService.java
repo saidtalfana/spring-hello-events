@@ -26,6 +26,6 @@ public class ContactService {
 
 
     public List<Contact> getAllContacts(int user_id) {
-        return contactRepository.findAllContact(user_id);
+        return contactRepository.findAllContactByUserId(user_id);
     }
 }

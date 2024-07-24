@@ -43,4 +43,7 @@ public class User {
 
     @OneToMany(mappedBy = "user")
     private Set<Reservations> reservations = new HashSet<>();
+
+    @OneToMany(mappedBy ="user")
+    private Set<Event> events = new HashSet<>();
 }
