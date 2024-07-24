@@ -1,9 +1,7 @@
 package com.spring.Hello_Events.service;
 
 import com.spring.Hello_Events.model.Event;
-import com.spring.Hello_Events.model.User;
 import com.spring.Hello_Events.repository.EventRepository;
-import com.spring.Hello_Events.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -11,21 +9,41 @@ import java.util.List;
 
 @Service
 public class EventService {
+
     @Autowired
     private EventRepository eventRepository;
 
-    @Autowired
-    private UserRepository UserRepository;
-
-    public List<Event> getAllEvents() {
-        return eventRepository.findAll();
-    }
-
-    public Event save(Event event ,int user_id) {
-        User user= UserRepository.findById(user_id).get();
-        event.setUser(user);
+    public Event save(Event event) {
         return eventRepository.save(event);
     }
 
+    public Event findById(int id) {
+        return eventRepository.findById(id).orElseThrow(() -> new IllegalArgumentException("Event not found"));
+    }
+
+    public List<Event> findAll() {
+        return eventRepository.findAll();
+    }
+
+    public void deleteById(int id) {
+        eventRepository.deleteById(id);
+    }
+
+    public Event updateEvent(Integer id, Event event) {
+        // Trouver l'événement existant par son ID
+        Event existingEvent = eventRepository.findById(id)
+                .orElseThrow(() -> new IllegalArgumentException("Event not found"));
+
+        // Mettre à jour les attributs de l'événement
+        existingEvent.setName(event.getName());
+        existingEvent.setDescription(event.getDescription());
+        existingEvent.setLocation(event.getLocation());
+        existingEvent.setStartTime(event.getStartTime());
+        existingEvent.setDate(event.getDate());
+        existingEvent.setPrice(event.getPrice());
+
+        // Enregistrer l'événement mis à jour
+        return eventRepository.save(existingEvent);
+    }
 
 }

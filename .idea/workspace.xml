@@ -5,26 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fb29bad-b025-4232-b821-01ad6aee2f39" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Diabetes/.idea/Diabetes.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring boot Back End - Copie/.idea/angular.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring boot Back End/.idea/angular.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../said/hello/src/main/java/com/spring/hello/controller/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springAngular/.idea/springAngular.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Hello-Events-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Hello-Events-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/Config/ConfigSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/Config/ConfigSecurity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/Config/JwtAuth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/Config/JwtAuth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/Config/JwtAuthorizationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/Config/JwtAuthorizationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/controller/EventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/controller/EventController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/service/EventService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/service/EventService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/Config/ConfigSecurity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/Config/ConfigSecurity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/Config/JwtAuth.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/Config/JwtAuth.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/Config/JwtAuthorizationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/Config/JwtAuthorizationFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/controller/EventController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/controller/EventController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/service/EventService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/service/EventService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/service/UserServise.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.spring.Hello_Events.HelloEventsApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.spring.Hello_Events.HelloEventsApplicationTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.spring.Hello_Events.HelloEventsApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.spring.Hello_Events.HelloEventsApplicationTests.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,30 +46,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven.Hello-Events [clean].executor": "Run",
-    "Maven.Hello-Events [install].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.HelloEventsApplication (1).executor": "Run",
-    "Spring Boot.HelloEventsApplication.executor": "Run",
-    "git-widget-placeholder": "User",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/user/Desktop/Hello-Events",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.Hello-Events [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Hello-Events [install].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.HelloEventsApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.HelloEventsApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;admin&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/Hello-Events&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.spring.Hello_Events.Config" />
+      <recent name="com.spring.Hello_Events.service" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="HelloEventsApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Hello-Events" />
