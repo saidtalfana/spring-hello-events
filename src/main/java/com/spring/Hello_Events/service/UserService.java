@@ -17,12 +17,10 @@ public class UserService {
     @Autowired
     private BCryptPasswordEncoder passwordEncoder;
 
-
-
-     public User save(User user) {
-         user.setPassword(passwordEncoder.encode(user.getPassword()));
-         return userRepository.save(user);
-     }
+    public User save(User user) {
+        user.setPassword(passwordEncoder.encode(user.getPassword()));
+        return userRepository.save(user);
+    }
 
     public User findByUsername(String username) {
         return userRepository.findByUsername(username);
@@ -33,20 +31,20 @@ public class UserService {
     }
 
     public User findById(int id) {
-        return userRepository.findById(id).orElseThrow();
+        return userRepository.findById(id).orElseThrow(() -> new IllegalArgumentException("User not found"));
     }
 
     public void deleteById(int id) {
         userRepository.deleteById(id);
     }
 
-    public User update(Integer id , User user) {
-        User User1 = userRepository.findById(id).orElseThrow();
-        user.setId(User1.getId());
-        user.setUsername(User1.getUsername());
-        user.setPassword(User1.getPassword());
-        user.setEmail(User1.getEmail());
-        userRepository.save(user);
-        return userRepository.save(User1);
+    public User update(Integer id, User user) {
+        User existingUser = userRepository.findById(id).orElseThrow(() -> new IllegalArgumentException("User not found"));
+        existingUser.setUsername(user.getUsername());
+        existingUser.setPassword(passwordEncoder.encode(user.getPassword()));
+        existingUser.setEmail(user.getEmail());
+        existingUser.setPhoneNumber(user.getPhoneNumber());
+        existingUser.setRoles(user.getRoles());
+        return userRepository.save(existingUser);
     }
 }

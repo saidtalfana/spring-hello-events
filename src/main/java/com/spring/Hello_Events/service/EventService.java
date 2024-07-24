@@ -26,4 +26,8 @@ public class EventService {
         event.setUser(user);
         return eventRepository.save(event);
     }
+
+    public Event getEventById(int id) {
+        return eventRepository.findById(id).get();
+    }
 }

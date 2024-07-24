@@ -1,7 +1,6 @@
 package com.spring.Hello_Events.model;
 
 import com.spring.Hello_Events.enums.Role;
-import com.spring.Hello_Events.service.UserDetailsImpl;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -9,11 +8,13 @@ import lombok.NoArgsConstructor;
 
 import jakarta.persistence.*;
 import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
 import java.util.Collection;
 import java.util.Set;
 import java.util.HashSet;
+import java.util.stream.Collectors;
 
 @Entity
 @Table(name = "users")
@@ -30,10 +31,10 @@ public class User implements UserDetails {
     @Column(unique = true)
     private String username;
 
-    @Column()
+    @Column
     private String password;
 
-    @Column()
+    @Column
     private String email;
 
     @Column
@@ -51,17 +52,21 @@ public class User implements UserDetails {
     @OneToMany(mappedBy = "user")
     private Set<Reservations> reservations = new HashSet<>();
 
-    @OneToMany(mappedBy ="user")
+    @OneToMany(mappedBy = "user")
     private Set<Event> events = new HashSet<>();
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
-        return null;
+        return roles.stream()
+                .map(role -> new SimpleGrantedAuthority(role.getAuthority()))
+                .collect(Collectors.toList());
     }
+
     @Override
     public String getUsername(){
         return this.username;
     }
+
     @Override
     public String getPassword(){
         return this.password;

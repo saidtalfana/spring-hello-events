@@ -33,14 +33,15 @@ public class ConfigSecurity {
                 .csrf(csrf -> csrf.disable())
                 .authorizeHttpRequests(expressionInterceptUrlRegistry ->
                         expressionInterceptUrlRegistry
-//                              .requestMatchers("/login", "/signup").permitAll()
-                                .anyRequest().permitAll()
+                                .requestMatchers("/login", "/signup").permitAll()
+                                .anyRequest().authenticated()
                 )
-                .formLogin(formLogin ->formLogin.disable());
+                .formLogin(formLogin -> formLogin.disable());
         http.addFilterBefore(new JwtAuthorizationFilter(), UsernamePasswordAuthenticationFilter.class);
         http.cors(Customizer.withDefaults());
         return http.build();
     }
+
     @Bean
     public AuthenticationManager authenticationManager(HttpSecurity http) throws Exception {
         AuthenticationManagerBuilder authenticationManagerBuilder = http.getSharedObject(AuthenticationManagerBuilder.class);
