@@ -43,4 +43,9 @@ public class Event {
 
     @OneToMany(mappedBy = "event")
     private Set<Reservations> reservations = new HashSet<>();
+
+
+    @ManyToOne
+    @JoinColumn(name="user_id")
+    private User user;
 }
