@@ -1,5 +1,13 @@
-com\spring\Hello_Events\HelloEventsApplication.class
-com\spring\Hello_Events\service\UserServise.class
-com\spring\Hello_Events\repository\UserRepository.class
+com\spring\Hello_Events\model\Reservations.class
 com\spring\Hello_Events\model\User.class
 com\spring\Hello_Events\controller\Test.class
+com\spring\Hello_Events\repository\ReservationRepository.class
+com\spring\Hello_Events\HelloEventsApplication.class
+com\spring\Hello_Events\repository\EventRepository.class
+com\spring\Hello_Events\repository\UserRepository.class
+com\spring\Hello_Events\repository\ContactRepository.class
+com\spring\Hello_Events\model\Contact.class
+com\spring\Hello_Events\service\UserService.class
+com\spring\Hello_Events\enums\Role.class
+com\spring\Hello_Events\model\Event.class
+com\spring\Hello_Events\controller\UserController.class
