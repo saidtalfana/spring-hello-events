@@ -3,7 +3,6 @@ package com.spring.Hello_Events.controller;
 import com.spring.Hello_Events.model.Event;
 import com.spring.Hello_Events.service.EventService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -15,25 +14,28 @@ public class EventController {
     @Autowired
     private EventService eventService;
 
-    @GetMapping
+    @GetMapping("/get_all")
     public List<Event> getAllEvents() {
-        return eventService.getAllEvents();
+        return eventService.findAll();
     }
 
-    @PostMapping
-    @PreAuthorize("hasRole('ROLE_ADMIN')")
-    public Event createEvent(@RequestBody Event event, @RequestParam int userId) {
-        return eventService.save(event, userId);
-    }
-
-    @GetMapping("/{id}")
+    @GetMapping("/get/{id}")
     public Event getEventById(@PathVariable int id) {
-        return eventService.getEventById(id);
+        return eventService.findById(id);
     }
 
-    @GetMapping("/get_events")
-    public List<Event> getEvents() {
-        return eventService.getAllEvents();
+    @PostMapping("/add")
+    public Event createEvent(@RequestBody Event event) {
+        return eventService.save(event);
+    }
+
+    @PutMapping("/update/{id}")
+    public Event updateEvent(@PathVariable int id, @RequestBody Event event) {
+        return eventService.updateEvent(id, event);
+    }
+
+    @DeleteMapping("/delete/{id}")
+    public void deleteEvent(@PathVariable int id) {
+        eventService.deleteById(id);
     }
 }
-

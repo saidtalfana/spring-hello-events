@@ -1,5 +1,6 @@
 package com.spring.Hello_Events.service;
 
+import com.spring.Hello_Events.enums.Role;
 import com.spring.Hello_Events.model.User;
 import com.spring.Hello_Events.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -7,6 +8,8 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Set;
+import java.util.HashSet;
 
 @Service
 public class UserService {
@@ -19,6 +22,9 @@ public class UserService {
 
     public User save(User user) {
         user.setPassword(passwordEncoder.encode(user.getPassword()));
+        Set<Role> roles = new HashSet<>();
+        roles.add(Role.ROLE_ADMIN);
+        user.setRoles(roles);
         return userRepository.save(user);
     }
 

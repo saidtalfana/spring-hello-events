@@ -3,8 +3,8 @@ package com.spring.Hello_Events.Config;
 import com.spring.Hello_Events.service.UserDetailsImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.http.HttpMethod;
 import org.springframework.security.authentication.AuthenticationManager;
-import org.springframework.security.config.Customizer;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
@@ -33,12 +33,13 @@ public class ConfigSecurity {
                 .csrf(csrf -> csrf.disable())
                 .authorizeHttpRequests(expressionInterceptUrlRegistry ->
                         expressionInterceptUrlRegistry
-                                .requestMatchers("/login", "/signup").permitAll()
+                                .requestMatchers("/api/user/login", "/api/user/signup").permitAll()
+                                .requestMatchers(HttpMethod.GET, "/api/events/**").hasAnyRole("USER", "ADMIN")
+                                .requestMatchers("/api/events/**").hasRole("ADMIN")
                                 .anyRequest().authenticated()
                 )
                 .formLogin(formLogin -> formLogin.disable());
         http.addFilterBefore(new JwtAuthorizationFilter(), UsernamePasswordAuthenticationFilter.class);
-        http.cors(Customizer.withDefaults());
         return http.build();
     }
 
