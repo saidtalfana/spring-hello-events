@@ -35,7 +35,9 @@ public class ConfigSecurity {
                         expressionInterceptUrlRegistry
                                 .requestMatchers("/api/user/login", "/api/user/signup").permitAll()
                                 .requestMatchers(HttpMethod.GET, "/api/events/**").hasAnyRole("USER", "ADMIN")
+                                .requestMatchers(HttpMethod.POST, "/api/reservations/**").hasRole("USER")
                                 .requestMatchers("/api/events/**").hasRole("ADMIN")
+                                .requestMatchers("/api/reservations/**").hasAnyRole("USER","ADMIN")
                                 .anyRequest().authenticated()
                 )
                 .formLogin(formLogin -> formLogin.disable());
