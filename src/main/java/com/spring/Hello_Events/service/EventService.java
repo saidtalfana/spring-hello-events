@@ -1,6 +1,7 @@
 package com.spring.Hello_Events.service;
 
 import com.spring.Hello_Events.model.Event;
+import com.spring.Hello_Events.model.User;
 import com.spring.Hello_Events.repository.EventRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -13,7 +14,12 @@ public class EventService {
     @Autowired
     private EventRepository eventRepository;
 
+    @Autowired
+    private UserService userService;
+
     public Event save(Event event) {
+        User user = userService.findById(1);
+        event.setUser(user);
         return eventRepository.save(event);
     }
 
