@@ -32,6 +32,9 @@ public class ReservationService {
         Event event = eventRepository.findById(reservation.getEvent().getId()).orElseThrow();
         reservation.setEvent(event);
 
+        User user = userRepository.findById(reservation.getUser().getId()).orElseThrow();
+        reservation.setUser(user);
+
         reservation.setReservationDate(new Date());
         return reservationRepository.save(reservation);
     }
