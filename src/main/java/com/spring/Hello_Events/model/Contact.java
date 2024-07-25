@@ -5,6 +5,8 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import jakarta.persistence.*;
+import org.springframework.format.annotation.DateTimeFormat;
+
 import java.time.LocalDateTime;
 
 @Entity
@@ -22,6 +24,7 @@ public class Contact {
     private String message;
 
     @Column()
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
     private LocalDateTime contactDate;
 
     @ManyToOne
