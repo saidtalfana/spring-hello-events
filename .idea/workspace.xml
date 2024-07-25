@@ -7,13 +7,8 @@
     <list default="true" id="7fb29bad-b025-4232-b821-01ad6aee2f39" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/Config/ConfigSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/Config/ConfigSecurity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/controller/ContactService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/controller/ContactService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/model/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/model/Contact.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/service/ContactService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/service/ContactService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/service/EventService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/service/EventService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/Config/ConfigSecurity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/Config/ConfigSecurity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/model/Contact.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/model/Contact.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/service/EventService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/service/EventService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/controller/ContactService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/service/ContactService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/service/ContactService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
