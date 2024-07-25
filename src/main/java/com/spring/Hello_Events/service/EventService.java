@@ -19,7 +19,7 @@ public class EventService {
     private UserService userService;
 
     public Event save(Event event) {
-//        User user = userService.findById(1);
+//        User user = userService.findById(5);
 //        event.setUser(user);
         return eventRepository.save(event);
     }
@@ -37,11 +37,10 @@ public class EventService {
     }
 
     public Event updateEvent(Integer id, Event event) {
-        // Trouver l'événement existant par son ID
+
         Event existingEvent = eventRepository.findById(id)
                 .orElseThrow(() -> new IllegalArgumentException("Event not found"));
 
-        // Mettre à jour les attributs de l'événement
         existingEvent.setName(event.getName());
         existingEvent.setDescription(event.getDescription());
         existingEvent.setLocation(event.getLocation());
@@ -49,7 +48,7 @@ public class EventService {
         existingEvent.setDate(event.getDate());
         existingEvent.setPrice(event.getPrice());
 
-        // Enregistrer l'événement mis à jour
+
         return eventRepository.save(existingEvent);
     }
 
