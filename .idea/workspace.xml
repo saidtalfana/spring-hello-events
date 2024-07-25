@@ -6,13 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="7fb29bad-b025-4232-b821-01ad6aee2f39" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/Config/ConfigSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/Config/ConfigSecurity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/controller/ReservationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/controller/ReservationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/repository/ReservationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/repository/ReservationRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/service/ReservationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/service/ReservationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/Config/ConfigSecurity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/Config/ConfigSecurity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/controller/ReservationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/controller/ReservationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/repository/ReservationRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/repository/ReservationRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/controller/EventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/controller/EventController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/model/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/model/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/repository/EventRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/repository/EventRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/service/EventService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/service/EventService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/controller/EventController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/controller/EventController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/model/Event.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/model/Event.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/repository/EventRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/repository/EventRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/service/EventService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/service/EventService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/service/ReservationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/service/ReservationService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

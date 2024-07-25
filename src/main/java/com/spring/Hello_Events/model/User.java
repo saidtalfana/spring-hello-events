@@ -52,8 +52,8 @@ public class User implements UserDetails {
     @OneToMany(mappedBy = "user")
     private Set<Reservations> reservations = new HashSet<>();
 
-    @OneToMany(mappedBy = "user")
-    private Set<Event> events = new HashSet<>();
+//    @OneToMany(mappedBy = "user")
+//    private Set<Event> events = new HashSet<>();
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
