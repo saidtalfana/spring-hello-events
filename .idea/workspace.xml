@@ -5,30 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fb29bad-b025-4232-b821-01ad6aee2f39" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Diabetes/.idea/Diabetes.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/com/spring/Hello_Events/UserRepositoryTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/com/spring/Hello_Events/UserServiseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring boot Back End - Copie/.idea/angular.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring boot Back End/.idea/angular.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../said/hello/src/main/java/com/spring/hello/controller/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../said/training file/E-Bank-Solution/springAngular/src/main/java/com/bank/springAngular/controller/EventController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../said/training file/E-Bank-Solution/springAngular/src/main/java/com/bank/springAngular/controller/ReservationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../said/training file/E-Bank-Solution/springAngular/src/main/java/com/bank/springAngular/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../said/training file/E-Bank-Solution/springAngular/src/main/java/com/bank/springAngular/enums/Roles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../said/training file/E-Bank-Solution/springAngular/src/main/java/com/bank/springAngular/model/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../said/training file/E-Bank-Solution/springAngular/src/main/java/com/bank/springAngular/model/Reservation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../said/training file/E-Bank-Solution/springAngular/src/main/java/com/bank/springAngular/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../said/training file/E-Bank-Solution/springAngular/src/main/java/com/bank/springAngular/repository/EventRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../said/training file/E-Bank-Solution/springAngular/src/main/java/com/bank/springAngular/repository/ResevationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../said/training file/E-Bank-Solution/springAngular/src/main/java/com/bank/springAngular/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../said/training file/E-Bank-Solution/springAngular/src/main/java/com/bank/springAngular/service/EventService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../said/training file/E-Bank-Solution/springAngular/src/main/java/com/bank/springAngular/service/ReservationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../said/training file/E-Bank-Solution/springAngular/src/main/java/com/bank/springAngular/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springAngular/.idea/springAngular.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/spring/Hello_Events/UserRepositoryTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/spring/Hello_Events/UserServiseTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/Config/ConfigSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/Config/ConfigSecurity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/controller/EventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/controller/EventController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/model/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/model/Contact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/model/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/model/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/repository/EventRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/repository/EventRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/service/EventService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/service/EventService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/Config/ConfigSecurity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/Config/ConfigSecurity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/controller/ContactController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/controller/EventController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/controller/EventController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/model/Contact.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/model/Contact.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/model/Event.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/model/Event.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/model/User$UserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/model/User$UserBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/repository/EventRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/repository/EventRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/service/ContactService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/service/ContactService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/service/EventService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/service/EventService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/service/ReservationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/service/ReservationService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/service/UserService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,47 +55,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.UserRepositoryTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UserRepositoryTest.getUserById.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UserServiseTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UserServiseTest.testFindAll.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UserServiseTest.testFindById.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UserServiseTest.testFindByIdNotFound.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UserServiseTest.testFindByUsername.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UserServiseTest.testSave.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UserServiseTest.testSaveUser.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UserServiseTest.testUpdate.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Hello-Events [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Hello-Events [install].executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.HelloEventsApplication (1).executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.HelloEventsApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;User&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/Hello-Events&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.UserRepositoryTest.executor": "Run",
+    "JUnit.UserRepositoryTest.getUserById.executor": "Run",
+    "JUnit.UserServiseTest.executor": "Run",
+    "JUnit.UserServiseTest.testFindAll.executor": "Run",
+    "JUnit.UserServiseTest.testFindById.executor": "Run",
+    "JUnit.UserServiseTest.testFindByIdNotFound.executor": "Run",
+    "JUnit.UserServiseTest.testFindByUsername.executor": "Run",
+    "JUnit.UserServiseTest.testSave.executor": "Run",
+    "JUnit.UserServiseTest.testSaveUser.executor": "Run",
+    "JUnit.UserServiseTest.testUpdate.executor": "Run",
+    "Maven.Hello-Events [clean].executor": "Run",
+    "Maven.Hello-Events [install].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.HelloEventsApplication (1).executor": "Run",
+    "Spring Boot.HelloEventsApplication.executor": "Run",
+    "git-widget-placeholder": "Merging admin",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/user/Desktop/Hello-Events",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.spring.Hello_Events.Config" />
       <recent name="com.spring.Hello_Events.service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserServiseTest">
+  <component name="RunManager" selected="Spring Boot.HelloEventsApplication (1)">
     <configuration name="UserServiseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Hello-Events" />
       <extension name="coverage">
