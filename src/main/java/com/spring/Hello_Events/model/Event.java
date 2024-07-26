@@ -31,9 +31,6 @@ public class Event {
     @Column()
     private String location;
 
-    @Column()
-    private String category;
-
     @DateTimeFormat(pattern = "HH:mm")
     private LocalTime startTime;
 
@@ -48,7 +45,7 @@ public class Event {
     private Set<Reservations> reservations = new HashSet<>();
 
 
-//    @ManyToOne
-//    @JoinColumn(name="user_id")
-//    private User user;
+    @ManyToOne
+    @JoinColumn(name="user_id")
+    private User user;
 }
