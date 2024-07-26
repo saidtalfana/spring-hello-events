@@ -97,6 +97,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>Hello-Events</finalName>
 	</build>
 
 </project>
