@@ -4,32 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fb29bad-b025-4232-b821-01ad6aee2f39" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Diabetes/.idea/Diabetes.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/spring/Hello_Events/UserRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/spring/Hello_Events/UserServiseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring boot Back End - Copie/.idea/angular.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring boot Back End/.idea/angular.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../said/hello/src/main/java/com/spring/hello/controller/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../said/training file/E-Bank-Solution/springAngular/src/main/java/com/bank/springAngular/controller/EventController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../said/training file/E-Bank-Solution/springAngular/src/main/java/com/bank/springAngular/controller/ReservationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../said/training file/E-Bank-Solution/springAngular/src/main/java/com/bank/springAngular/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../said/training file/E-Bank-Solution/springAngular/src/main/java/com/bank/springAngular/enums/Roles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../said/training file/E-Bank-Solution/springAngular/src/main/java/com/bank/springAngular/model/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../said/training file/E-Bank-Solution/springAngular/src/main/java/com/bank/springAngular/model/Reservation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../said/training file/E-Bank-Solution/springAngular/src/main/java/com/bank/springAngular/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../said/training file/E-Bank-Solution/springAngular/src/main/java/com/bank/springAngular/repository/EventRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../said/training file/E-Bank-Solution/springAngular/src/main/java/com/bank/springAngular/repository/ResevationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../said/training file/E-Bank-Solution/springAngular/src/main/java/com/bank/springAngular/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../said/training file/E-Bank-Solution/springAngular/src/main/java/com/bank/springAngular/service/EventService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../said/training file/E-Bank-Solution/springAngular/src/main/java/com/bank/springAngular/service/ReservationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../said/training file/E-Bank-Solution/springAngular/src/main/java/com/bank/springAngular/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springAngular/.idea/springAngular.iml" afterDir="false" />
+    <list default="true" id="7fb29bad-b025-4232-b821-01ad6aee2f39" name="Changes" comment="&quot;Junit&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/service/EventService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/service/EventService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/service/ReservationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/service/ReservationService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spring/Hello_Events/UserRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/spring/Hello_Events/UserServiseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/spring/Hello_Events/UserServiseTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +25,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -96,7 +75,7 @@
       <recent name="com.spring.Hello_Events.service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserServiseTest">
+  <component name="RunManager" selected="Spring Boot.HelloEventsApplication (1)">
     <configuration name="UserServiseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Hello-Events" />
       <extension name="coverage">
@@ -225,9 +204,22 @@
       <workItem from="1721896041420" duration="14107000" />
       <workItem from="1721980277162" duration="3622000" />
     </task>
+    <task id="LOCAL-00001" summary="&quot;Junit&quot;">
+      <option name="closed" value="true" />
+      <created>1721986275804</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1721986275804</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;Junit&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Junit&quot;" />
   </component>
 </project>
