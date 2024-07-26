@@ -5,7 +5,6 @@ import com.spring.Hello_Events.service.EventService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.Date;
 import java.util.List;
 
 @RestController
@@ -38,13 +37,5 @@ public class EventController {
     @DeleteMapping("/delete/{id}")
     public void deleteEvent(@PathVariable int id) {
         eventService.deleteById(id);
-    }
-
-    @GetMapping("/search")
-    public List<Event> searchEvents(
-            @RequestParam(required = false) Date date,
-            @RequestParam(required = false) String location,
-            @RequestParam(required = false) String category) {
-        return eventService.searchEvents(date, location, category);
     }
 }

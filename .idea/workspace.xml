@@ -5,10 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fb29bad-b025-4232-b821-01ad6aee2f39" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Diabetes/.idea/Diabetes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/spring/Hello_Events/UserRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/spring/Hello_Events/UserServiseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring boot Back End - Copie/.idea/angular.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring boot Back End/.idea/angular.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../said/hello/src/main/java/com/spring/hello/controller/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../said/training file/E-Bank-Solution/springAngular/src/main/java/com/bank/springAngular/controller/EventController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../said/training file/E-Bank-Solution/springAngular/src/main/java/com/bank/springAngular/controller/ReservationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../said/training file/E-Bank-Solution/springAngular/src/main/java/com/bank/springAngular/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../said/training file/E-Bank-Solution/springAngular/src/main/java/com/bank/springAngular/enums/Roles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../said/training file/E-Bank-Solution/springAngular/src/main/java/com/bank/springAngular/model/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../said/training file/E-Bank-Solution/springAngular/src/main/java/com/bank/springAngular/model/Reservation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../said/training file/E-Bank-Solution/springAngular/src/main/java/com/bank/springAngular/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../said/training file/E-Bank-Solution/springAngular/src/main/java/com/bank/springAngular/repository/EventRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../said/training file/E-Bank-Solution/springAngular/src/main/java/com/bank/springAngular/repository/ResevationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../said/training file/E-Bank-Solution/springAngular/src/main/java/com/bank/springAngular/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../said/training file/E-Bank-Solution/springAngular/src/main/java/com/bank/springAngular/service/EventService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../said/training file/E-Bank-Solution/springAngular/src/main/java/com/bank/springAngular/service/ReservationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../said/training file/E-Bank-Solution/springAngular/src/main/java/com/bank/springAngular/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springAngular/.idea/springAngular.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/Config/ConfigSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/Config/ConfigSecurity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/controller/ContactService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/service/ContactService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/service/ContactService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/service/EventService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/service/EventService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/service/ReservationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/service/ReservationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/Hello_Events/service/UserService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +58,16 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;JUnit.UserRepositoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserRepositoryTest.getUserById.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServiseTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServiseTest.testFindAll.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServiseTest.testFindById.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServiseTest.testFindByIdNotFound.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServiseTest.testFindByUsername.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServiseTest.testSave.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServiseTest.testSaveUser.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServiseTest.testUpdate.executor&quot;: &quot;Run&quot;,
     &quot;Maven.Hello-Events [clean].executor&quot;: &quot;Run&quot;,
     &quot;Maven.Hello-Events [install].executor&quot;: &quot;Run&quot;,
     &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
@@ -47,7 +78,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;Spring Boot.HelloEventsApplication (1).executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.HelloEventsApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;admin&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;User&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/Hello-Events&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -65,7 +96,86 @@
       <recent name="com.spring.Hello_Events.service" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.UserServiseTest">
+    <configuration name="UserServiseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Hello-Events" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.Hello_Events.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spring.Hello_Events" />
+      <option name="MAIN_CLASS_NAME" value="com.spring.Hello_Events.UserServiseTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiseTest.testFindById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Hello-Events" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.Hello_Events.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spring.Hello_Events" />
+      <option name="MAIN_CLASS_NAME" value="com.spring.Hello_Events.UserServiseTest" />
+      <option name="METHOD_NAME" value="testFindById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiseTest.testFindByIdNotFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Hello-Events" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.Hello_Events.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spring.Hello_Events" />
+      <option name="MAIN_CLASS_NAME" value="com.spring.Hello_Events.UserServiseTest" />
+      <option name="METHOD_NAME" value="testFindByIdNotFound" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiseTest.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Hello-Events" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.Hello_Events.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spring.Hello_Events" />
+      <option name="MAIN_CLASS_NAME" value="com.spring.Hello_Events.UserServiseTest" />
+      <option name="METHOD_NAME" value="testSave" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiseTest.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Hello-Events" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.Hello_Events.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spring.Hello_Events" />
+      <option name="MAIN_CLASS_NAME" value="com.spring.Hello_Events.UserServiseTest" />
+      <option name="METHOD_NAME" value="testUpdate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HelloEventsApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Hello-Events" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.spring.Hello_Events.HelloEventsApplication" />
@@ -73,6 +183,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.UserServiseTest" />
+      <item itemvalue="JUnit.UserServiseTest.testFindById" />
+      <item itemvalue="JUnit.UserServiseTest.testFindByIdNotFound" />
+      <item itemvalue="JUnit.UserServiseTest.testSave" />
+      <item itemvalue="JUnit.UserServiseTest.testUpdate" />
+      <item itemvalue="Spring Boot.HelloEventsApplication (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserServiseTest" />
+        <item itemvalue="JUnit.UserServiseTest.testUpdate" />
+        <item itemvalue="JUnit.UserServiseTest.testSave" />
+        <item itemvalue="JUnit.UserServiseTest.testFindByIdNotFound" />
+        <item itemvalue="JUnit.UserServiseTest.testFindById" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -95,6 +222,8 @@
       <workItem from="1721746575181" duration="1247000" />
       <workItem from="1721748586447" duration="644000" />
       <workItem from="1721767861419" duration="4231000" />
+      <workItem from="1721896041420" duration="14107000" />
+      <workItem from="1721980277162" duration="3622000" />
     </task>
     <servers />
   </component>

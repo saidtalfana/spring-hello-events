@@ -7,17 +7,25 @@ import com.spring.Hello_Events.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class ContactService {
+
     @Autowired
     private ContactRepository contactRepository;
 
     @Autowired
-    private UserService userService;
+    private UserRepository userRepository;
 
-    public Contact addContact(Contact contact, Integer user_id) {
-        User user1 = userService.findById(user_id);
-        contact.setUser(user1);
+    public Contact saveContact(Contact contact,int user_id) {
+       User user1 = userRepository.findById(user_id).get();
+       contact.setUser(user1);
         return contactRepository.save(contact);
+    }
+
+
+    public List<Contact> getAllContacts(int user_id) {
+        return contactRepository.findAllContactByUserId(user_id);
     }
 }
