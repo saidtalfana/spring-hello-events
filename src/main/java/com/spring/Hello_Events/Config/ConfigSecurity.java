@@ -37,6 +37,8 @@ public class ConfigSecurity {
                                 .requestMatchers(HttpMethod.GET, "/api/events/**").hasAnyRole("USER", "ADMIN")
                                 .requestMatchers(HttpMethod.POST, "/api/reservations/**").hasRole("USER")
                                 .requestMatchers("/api/events/**").hasRole("ADMIN")
+                                .requestMatchers(HttpMethod.POST,"/api/contact/**").hasRole("USER")
+                                .requestMatchers("/api/contact/**").hasAnyRole("USER","ADMIN")
                                 .requestMatchers("/api/reservations/**").hasAnyRole("USER","ADMIN")
                                 .anyRequest().authenticated()
                 )
