@@ -38,7 +38,7 @@ public class ConfigSecurity {
                                 .requestMatchers(HttpMethod.POST, "/api/reservations/**").hasRole("USER")
                                 .requestMatchers("/api/events/**").hasRole("ADMIN")
                                 .requestMatchers(HttpMethod.POST,"/api/contact/**").hasRole("USER")
-                                .requestMatchers("/api/reservations/**").hasAnyRole("USER","ADMIN")
+                                .requestMatchers("/api/contact/**").hasAnyRole("USER","ADMIN")
                                 .anyRequest().authenticated()
                 )
                 .formLogin(formLogin -> formLogin.disable());
