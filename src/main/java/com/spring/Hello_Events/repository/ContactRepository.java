@@ -11,4 +11,6 @@ public interface ContactRepository extends JpaRepository<Contact, Integer> {
 
 @Query(value = "select * from Contact where user_id=?" , nativeQuery = true)
     public List<Contact> findAllContactByUserId(int user_id);
+
+    List<Contact> findContactsByUserId(int user_id);
 }

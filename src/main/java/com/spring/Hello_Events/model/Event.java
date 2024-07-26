@@ -31,6 +31,9 @@ public class Event {
     @Column()
     private String location;
 
+    @Column()
+    private String category;
+
     @DateTimeFormat(pattern = "HH:mm")
     private LocalTime startTime;
 
