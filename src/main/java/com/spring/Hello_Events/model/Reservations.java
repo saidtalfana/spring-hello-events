@@ -19,6 +19,8 @@ public class Reservations {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
+
+
     @ManyToOne
     @JoinColumn(name = "event_id", nullable = false)
     private Event event;
@@ -33,4 +35,11 @@ public class Reservations {
 
     @Column(nullable = false)
     private Integer numberOfTickets;
+
+    public Reservations(Event event, User user, Date reservationDate, Integer numberOfTickets) {
+        this.event = event;
+        this.user = user;
+        this.reservationDate = reservationDate;
+        this.numberOfTickets = numberOfTickets;
+    }
 }

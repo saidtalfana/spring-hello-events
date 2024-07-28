@@ -1,10 +1,10 @@
 com\spring\Hello_Events\Config\JwtAuthorizationFilter.class
 com\spring\Hello_Events\controller\EventController.class
-com\spring\Hello_Events\controller\ContactService.class
 com\spring\Hello_Events\model\Reservations.class
 com\spring\Hello_Events\model\User.class
 com\spring\Hello_Events\repository\ReservationRepository.class
 com\spring\Hello_Events\HelloEventsApplication.class
+com\spring\Hello_Events\controller\ContactController.class
 com\spring\Hello_Events\repository\EventRepository.class
 com\spring\Hello_Events\repository\UserRepository.class
 com\spring\Hello_Events\service\ReservationService.class

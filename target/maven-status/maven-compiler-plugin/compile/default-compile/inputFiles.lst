@@ -1,7 +1,7 @@
 C:\Users\user\Desktop\spring-hello-events\src\main\java\com\spring\Hello_Events\Config\ConfigSecurity.java
 C:\Users\user\Desktop\spring-hello-events\src\main\java\com\spring\Hello_Events\Config\JwtAuth.java
 C:\Users\user\Desktop\spring-hello-events\src\main\java\com\spring\Hello_Events\Config\JwtAuthorizationFilter.java
-C:\Users\user\Desktop\spring-hello-events\src\main\java\com\spring\Hello_Events\controller\ContactService.java
+C:\Users\user\Desktop\spring-hello-events\src\main\java\com\spring\Hello_Events\controller\ContactController.java
 C:\Users\user\Desktop\spring-hello-events\src\main\java\com\spring\Hello_Events\controller\EventController.java
 C:\Users\user\Desktop\spring-hello-events\src\main\java\com\spring\Hello_Events\controller\ReservationController.java
 C:\Users\user\Desktop\spring-hello-events\src\main\java\com\spring\Hello_Events\controller\UserController.java

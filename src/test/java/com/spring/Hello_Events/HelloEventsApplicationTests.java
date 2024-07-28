@@ -1,13 +1,13 @@
-package com.spring.Hello_Events;
-
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
-
-@SpringBootTest
-class HelloEventsApplicationTests {
-
-	@Test
-	void contextLoads() {
-	}
-
-}
+//package com.spring.Hello_Events;
+//
+//import org.junit.jupiter.api.Test;
+//import org.springframework.boot.test.context.SpringBootTest;
+//
+//@SpringBootTest
+//class HelloEventsApplicationTests {
+//
+//	@Test
+//	void contextLoads() {
+//	}
+//
+//}

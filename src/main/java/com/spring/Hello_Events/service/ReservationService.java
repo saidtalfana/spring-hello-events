@@ -55,21 +55,4 @@ public class ReservationService {
         reservationRepository.deleteById(id);
     }
 
-    public Reservations updateReservation(Integer id, Reservations updatedReservation) {
-        Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
-        String role = authentication.getAuthorities().stream()
-                .map(authority -> authority.getAuthority())
-                .findFirst().orElse("");
-
-        Reservations existingReservation = reservationRepository.findById(id)
-                .orElseThrow(() -> new IllegalArgumentException("Reservation not found"));
-
-        if (!role.equals("ROLE_ADMIN") && !existingReservation.getUser().getUsername().equals(authentication.getName())) {
-            throw new AccessDeniedException("You do not have permission to update this reservation");
-        }
-
-        existingReservation.setNumberOfTickets(updatedReservation.getNumberOfTickets());
-        existingReservation.setReservationDate(updatedReservation.getReservationDate());
-        return reservationRepository.save(existingReservation);
-    }
 }
