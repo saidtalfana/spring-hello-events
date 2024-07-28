@@ -32,7 +32,6 @@ public class UserController {
     @DeleteMapping("/delete/{id}")
     public String delete(@PathVariable Integer id) {
         userService.deleteById(id);
-        System.out.println("/------------- > ");
         return "The account has been deleted :";
     }
 
