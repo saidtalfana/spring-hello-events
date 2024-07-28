@@ -1,4 +1,4 @@
-package com.spring.Hello_Events.Config;
+package com.spring.Hello_Events.config;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
