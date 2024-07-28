@@ -42,4 +42,10 @@ public class UserController {
         String token = JwtAuth.generateToken(requestLogin.getUsername(), roles);
         return new JwtDto(token);
     }
+
+    @DeleteMapping("/delete/{id}")
+    public String delete(@PathVariable Integer id) {
+        userService.deleteById(id);
+        return "The account has been deleted";
+    }
 }
