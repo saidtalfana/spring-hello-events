@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fb29bad-b025-4232-b821-01ad6aee2f39" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/config/ConfigSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/config/ConfigSecurity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/Hello_Events/controller/UserController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -207,7 +206,7 @@
       <workItem from="1721767861419" duration="4231000" />
       <workItem from="1721896041420" duration="14107000" />
       <workItem from="1721980277162" duration="3622000" />
-      <workItem from="1722086157782" duration="15557000" />
+      <workItem from="1722086157782" duration="21194000" />
     </task>
     <servers />
   </component>

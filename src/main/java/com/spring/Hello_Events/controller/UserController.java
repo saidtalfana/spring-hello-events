@@ -29,6 +29,13 @@ public class UserController {
         return "The account has been successfully created";
     }
 
+    @DeleteMapping("/delete/{id}")
+    public String delete(@PathVariable Integer id) {
+        userService.deleteById(id);
+        System.out.println("/------------- > ");
+        return "The account has been deleted :";
+    }
+
     @PostMapping("/login")
     public JwtDto login(@RequestBody User requestLogin) {
         authenticationManager.authenticate(
@@ -43,9 +50,4 @@ public class UserController {
         return new JwtDto(token);
     }
 
-    @DeleteMapping("/delete/{id}")
-    public String delete(@PathVariable Integer id) {
-        userService.deleteById(id);
-        return "The account has been deleted";
-    }
 }
