@@ -5,6 +5,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
 import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.config.Customizer;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
@@ -43,10 +44,10 @@ public class ConfigSecurity {
                                 .requestMatchers(HttpMethod.GET,"/api/contact/get_all").hasRole("ADMIN")
                                 .requestMatchers("/api/contact/**").hasAnyRole("USER","ADMIN")
                                 .requestMatchers("/api/reservations/**").hasAnyRole("USER","ADMIN")
-                                .anyRequest().permitAll()
+                                .anyRequest().authenticated()
                 )
                 .formLogin(formLogin -> formLogin.disable());
-                http.cors(AbstractHttpConfigurer::disable);
+                http.cors(Customizer.withDefaults());
         http.addFilterBefore(new JwtAuthorizationFilter(), UsernamePasswordAuthenticationFilter.class);
         return http.build();
     }
@@ -57,4 +58,6 @@ public class ConfigSecurity {
         authenticationManagerBuilder.userDetailsService(userDetailsService).passwordEncoder(passwordEncoder());
         return authenticationManagerBuilder.build();
     }
+
+
 }

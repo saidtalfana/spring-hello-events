@@ -10,5 +10,6 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 public class JwtDto {
+    private Integer user_id;
     private String token;
 }
