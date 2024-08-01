@@ -20,6 +20,10 @@ public class UserService {
     @Autowired
     private BCryptPasswordEncoder passwordEncoder;
 
+    public Integer getUserId(String username){
+        return userRepository.getUserId(username);
+    }
+
     public User save(User user) {
         user.setPassword(passwordEncoder.encode(user.getPassword()));
         Set<Role> roles = new HashSet<>();

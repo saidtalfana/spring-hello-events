@@ -40,9 +40,9 @@ public class UserController {
         Set<String> roles = user.getRoles().stream()
                 .map(role -> role.name())
                 .collect(Collectors.toSet());
-
+        Integer userId = user.getId();
         String token = JwtAuth.generateToken(requestLogin.getUsername(), roles);
-        return new JwtDto(token);
+        return new JwtDto(userId , token);
     }
 
     @DeleteMapping("/delete/{id}")
